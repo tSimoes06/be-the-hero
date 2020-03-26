@@ -1,0 +1,26 @@
+.logon-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto; /*conteudo sempre centralizado na tela*/
+
+    display: flex; /*muito facil de alinha os itens, assim posso usar align-items e justify-items*/
+    /*por padrao fica um ao lado do outro, usando flex-direction: column; fica um em cima do outro*/
+    align-items: center;/*alinha verticalmente ao centro*/
+    justify-content: space-between;/*adiciona espaco entre eles*/
+}
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.logon-container section.form form {
+    margin-top: 100px;
+}
+
+.logon-container section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
